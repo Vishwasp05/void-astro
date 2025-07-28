@@ -22,7 +22,7 @@ type Post = CollectionEntry<'blog'>;
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={tag as string} description={"Posts tagged with " + tag as string + "."} />
+    <BaseHead title={`Posts tagged '${tag as string}' | Protocol Oriented`} description={"Posts tagged with " + tag as string + "."} />
   </head>
   <body class="w-full flex flex-col mx-auto max-w-screen-md min-h-dvh justify-between dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300" >
     <Header />
